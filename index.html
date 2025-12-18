@@ -52,10 +52,12 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 76px;
-      height: 76px;
+      width: 96px;
+      height: 96px;
       transition: transform 0.2s ease;
-      position: relative;
+      position: absolute;
+      top: 36px;
+      right: 60px;
       z-index: 2;
     }
 
@@ -68,23 +70,9 @@
       height: 100%;
       fill: #ffffff;
     }
-
-    .moon {
-      position: absolute;
-      top: 36px;
-      right: 60px;
-      width: 110px;
-      height: 110px;
-      background: radial-gradient(ellipse at 30% 30%, rgba(255,255,255,0.9), rgba(255,255,255,0.65) 60%, rgba(255,255,255,0.1) 100%);
-      border-radius: 50%;
-      box-shadow: 0 0 30px rgba(255,255,255,0.25);
-      z-index: 1;
-      opacity: 0.9;
-    }
   </style>
 </head>
 <body>
-  <div class="moon" aria-hidden="true"></div>
   <img class="logo" src="ViaBalaena.png" alt="Via Balaena whale logo">
   <a class="github-link" href="https://github.com/via-balaena" target="_blank" rel="noreferrer" aria-label="Via Balaena on GitHub">
     <svg class="github-mark" viewBox="0 0 16 16" aria-hidden="true">
